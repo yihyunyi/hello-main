@@ -16,6 +16,6 @@ public class HelloMain {
 	        	sVcap = envvar.getValue();
 	    }
 		
-		System.out.println("VCAP_APPLICATION: " + sVcap);
+#		System.out.println("VCAP_APPLICATION: " + sVcap);
 	}
 }
