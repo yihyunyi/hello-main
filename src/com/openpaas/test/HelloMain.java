@@ -10,12 +10,12 @@ public class HelloMain {
 //		System.out.println("System Environment:");
 
 		for (Map.Entry<String, String> envvar : System.getenv().entrySet()) {
-	        System.out.println(envvar.getKey() + ": " + envvar.getValue());
+//	        System.out.println(envvar.getKey() + ": " + envvar.getValue());
 	        
 	        if(envvar.getKey().equalsIgnoreCase("VCAP_APPLICATION"))
 	        	sVcap = envvar.getValue();
 	    }
 		
-		System.out.println("VCAP_APPLICATION: " + sVcap);
+//		System.out.println("VCAP_APPLICATION: " + sVcap);
 	}
 }
